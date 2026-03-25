@@ -104,7 +104,7 @@ export default function Footer({ className }: { className?: string }) {
             </div>
 
             {/* Subscription Form */}
-            <SubscriptionForm />
+            {/* <SubscriptionForm /> */}
           </div>
         </div>
 
@@ -113,7 +113,7 @@ export default function Footer({ className }: { className?: string }) {
 
         {/* Bottom section: Line and Copyright */}
         <div className="flex font-normal gap-x-[41px] gap-y-[10px] items-start relative text-[18px]/[28px] text-white w-full flex-wrap">
-          <p className="relative">© 2023 Positivus. All Rights Reserved.</p>
+          <p className="relative">© 2026 Biko. All Rights Reserved.</p>
           <Link
             href="."
             className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-solid relative underline"

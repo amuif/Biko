@@ -21,40 +21,40 @@ type ServiceItem = {
 
 const services: ServiceItem[] = [
   {
-    lines: ["Search engine", "optimization"],
+    lines: ["Bike", "Rentals"],
     cardVariant: "Grey",
     illustrationSrc: imgSEO,
-    illustrationAlt: "Search engine optimization illustration",
+    illustrationAlt: "Bike rental illustration",
     illustrationStyle: {
       containerHeight: 170,
       backgroundSize: { width: 148.84, height: 183.86 },
     },
   },
   {
-    lines: ["Pay-per-click", "advertising"],
+    lines: ["Smart", "Stations"],
     cardVariant: "Green",
     illustrationSrc: imgPPC,
-    illustrationAlt: "Pay-per-click advertising illustration",
+    illustrationAlt: "Smart station illustration",
     illustrationStyle: {
       containerHeight: 147.624,
       backgroundSize: { width: 126.73, height: 180.28 },
     },
   },
   {
-    lines: ["Social Media", "Marketing"],
+    lines: ["Mobile App", "Access"],
     cardVariant: "DarkWhite",
     illustrationSrc: imgSocialMedia,
-    illustrationAlt: "Social Media Marketing illustration",
+    illustrationAlt: "Mobile app bike sharing illustration",
     illustrationStyle: {
       containerHeight: 210,
       backgroundSize: { width: 141.44, height: 141.44 },
     },
   },
   {
-    lines: ["Email", "Marketing"],
+    lines: ["Flexible", "Pricing"],
     cardVariant: "Grey",
     illustrationSrc: imgEmail,
-    illustrationAlt: "Email Marketing illustration",
+    illustrationAlt: "Flexible pricing illustration",
     illustrationStyle: {
       containerHeight: 192.68,
       backgroundSize: { width: 140.67, height: 153.3 },
@@ -62,7 +62,6 @@ const services: ServiceItem[] = [
       transform: "scaleX(-1)",
     },
   },
-
 ];
 
 export default function Services({ className }: { className?: string }) {
