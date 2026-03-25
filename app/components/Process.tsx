@@ -13,39 +13,21 @@ type ProcessItem = {
 const processItems: ProcessItem[] = [
   {
     number: "01",
-    title: "Consultation",
+    title: "Download the app",
     description:
-      "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
+      "Download our mobile app to find nearby bikes, stations, and get started in seconds.",
   },
   {
     number: "02",
-    title: "Research and Strategy Development",
+    title: "Register",
     description:
-      "We conduct thorough research on your industry, competitors, and target market to develop a comprehensive strategy that aligns with your business objectives and maximizes your marketing ROI.",
+      "Create your account, add payment details, and unlock bikes easily whenever you need.",
   },
   {
     number: "03",
-    title: "Implementation",
+    title: "Enjoy",
     description:
-      "Our team executes the developed strategy, implementing all marketing initiatives across various channels while ensuring consistency and quality in every aspect of the campaign.",
-  },
-  {
-    number: "04",
-    title: "Monitoring and Optimization",
-    description:
-      "We continuously monitor campaign performance, analyze data, and make data-driven optimizations to improve results and ensure your marketing efforts are delivering the best possible outcomes.",
-  },
-  {
-    number: "05",
-    title: "Reporting and Communication",
-    description:
-      "Regular reporting and transparent communication keep you informed about campaign progress, key metrics, and insights, ensuring you're always aware of how your marketing investments are performing.",
-  },
-  {
-    number: "06",
-    title: "Continual Improvement",
-    description:
-      "We believe in continuous improvement, regularly reviewing and refining our strategies based on performance data and market changes to ensure long-term success and growth for your business.",
+      "Pick a bike, ride across Addis Ababa, and drop it off at any nearby station when you're done.",
   },
 ];
 

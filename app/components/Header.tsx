@@ -12,7 +12,7 @@ export default function Header({ className }: { className?: string }) {
     >
       <div className="flex flex-col gap-[35px] max-xl:gap-[25px] items-start relative shrink-0 flex-1 pb-[34px] max-md:pb-0 max-w-[531px] max-md:max-w-none">
         <h1 className="font-medium relative shrink-0 text-[60px]/[normal] max-xl:text-[48px]/[1] whitespace-pre-wrap">
-          Navigating the digital landscape for success
+          Navigating the new Addis Ababa landscape
         </h1>
         <svg
           viewBox="0 0 601 515"
@@ -21,9 +21,9 @@ export default function Header({ className }: { className?: string }) {
           <use href="#header-illustration" />
         </svg>
         <p className="font-normal relative shrink-0 text-[20px]/[28px] max-xl:text-[16px]/[24px] max-w-[498px] max-md:max-w-none whitespace-pre-wrap">
-          Our digital marketing agency helps businesses grow and succeed online
-          through a range of services including SEO, PPC, social media
-          marketing, and content creation.
+          Our bike-sharing platform in Addis Ababa offers an easy, affordable, and eco-friendly way to get around.
+          We provide smart bikes and convenient stations across the city.
+          Users can book, track, and pay through a simple mobile app.
         </p>
         <Button
           variant="primary"

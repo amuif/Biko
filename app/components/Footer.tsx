@@ -7,11 +7,11 @@ import SubscriptionForm from "./SubscriptionForm";
 import Logo from "./Logo";
 
 const navLinks = [
-  { href: ".", label: "About us" },
+  // { href: ".", label: "About us" },
   { href: ".", label: "Services" },
   { href: ".", label: "Use Cases" },
-  { href: ".", label: "Pricing" },
-  { href: ".", label: "Blog" },
+  // { href: ".", label: "Pricing" },
+  // { href: ".", label: "Blog" },
 ];
 
 export default function Footer({ className }: { className?: string }) {
@@ -93,7 +93,7 @@ export default function Footer({ className }: { className?: string }) {
               </div>
               <div className="flex flex-col font-normal gap-[20px] items-start relative text-[18px] text-white">
                 <p className="leading-[normal] relative">
-                  Email: info@positivus.com
+                  Email: info@biko.com
                 </p>
                 <p className="leading-[normal] relative">Phone: 555-567-8901</p>
                 <div className="leading-[normal] relative">

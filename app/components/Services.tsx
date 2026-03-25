@@ -62,26 +62,7 @@ const services: ServiceItem[] = [
       transform: "scaleX(-1)",
     },
   },
-  {
-    lines: ["Content", "Creation"],
-    cardVariant: "Green",
-    illustrationSrc: imgContent,
-    illustrationAlt: "Content Creation illustration",
-    illustrationStyle: {
-      containerHeight: 195.915,
-      backgroundSize: { width: 132.08, height: 141.26 },
-    },
-  },
-  {
-    lines: ["Analytics and", "Tracking"],
-    cardVariant: "DarkGreen",
-    illustrationSrc: imgAnalytics,
-    illustrationAlt: "Analytics and Tracking illustration",
-    illustrationStyle: {
-      containerHeight: 170,
-      backgroundSize: { width: 108.36, height: 134.02 },
-    },
-  },
+
 ];
 
 export default function Services({ className }: { className?: string }) {

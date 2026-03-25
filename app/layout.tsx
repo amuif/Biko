@@ -9,22 +9,20 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Positivus - Digital Marketing Agency",
+  title: "Biko",
   description:
     "A modern digital marketing agency landing page. Built with Next.js, TypeScript, and Tailwind CSS. Design by Olga (@olgaaverchenko) from Figma Community.",
   keywords: ["digital marketing", "SEO", "PPC", "social media marketing"],
-  authors: [
-    { name: "zakariamouhid", url: "https://zakariamouhid.blogspot.com/" },
-  ],
+
   openGraph: {
-    title: "Positivus - Digital Marketing Agency",
-    description: "A modern digital marketing agency landing page",
+    title: "Biko",
+    // description: "A modern digital marketing agency landing page",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Positivus - Digital Marketing Agency",
-    description: "A modern digital marketing agency landing page",
+    title: "Biko ",
+    // description: "A modern digital marketing agency landing page",
   },
 };
 

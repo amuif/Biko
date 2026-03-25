@@ -5,11 +5,11 @@ import Button from "./Button";
 import { useState } from "react";
 
 const navLinks = [
-  { href: "#team", label: "About us" },
+  // { href: "#team", label: "About us" },
   { href: "#services", label: "Services" },
   { href: "/", label: "Use Cases" },
-  { href: "/", label: "Pricing" },
-  { href: "/", label: "Blog" },
+  // { href: "/", label: "Pricing" },
+  // { href: "/", label: "Blog" },
 ];
 
 export default function NavigationBar() {
@@ -110,7 +110,7 @@ export default function NavigationBar() {
                 closeMenu();
                 // For hash links or same page links, prevent default to allow menu to close
                 if (href === "." || href.startsWith("#")) {
-                  e.preventDefault();
+                  // e.preventDefault();
                 }
               }}
               className="font-normal leading-[28px] relative shrink-0 text-[20px] text-black ml-px"

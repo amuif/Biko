@@ -20,12 +20,15 @@ export default function Logo({
           height={36}
         />
       </div>
-      <div className="absolute inset-[8.33%_0_12.33%_22.28%]">
+      {/* <div className="absolute inset-[8.33%_0_12.33%_22.28%]">
         <LogoPositivus
           className="block max-w-none size-full fill-current"
           width={170}
           height={28}
         />
+      </div> */}
+      <div className="absolute inset-[8.33%_0_12.33%_22.28%] text-2xl font-extrabold">
+        Biko
       </div>
     </div>
   );
