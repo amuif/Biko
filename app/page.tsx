@@ -7,8 +7,8 @@ import Services from "./components/Services";
 import CTA from "./components/CTA";
 import CaseStudies from "./components/CaseStudies";
 import Process from "./components/Process";
-import Team from "./components/Team";
-import Testimonials from "./components/Testimonials";
+// import Team from "./components/Team";
+// import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -38,20 +38,8 @@ export default async function Home() {
         subheadingClassName="max-w-[292px]"
       />
       <Process className="mt-[80px] max-lg:mt-[60px] max-sm:mt-[40px]" />
-      <HeadingSubheading
-        className="mt-[140px] max-lg:mt-[100px] max-sm:mt-[60px]"
-        heading="Team"
-        subheading="Meet the skilled and experienced team behind our successful digital marketing strategies"
-        subheadingClassName="max-w-[473px]"
-      />
-      <Team className="mt-[80px] max-lg:mt-[60px] max-sm:mt-[40px]" />
-      <HeadingSubheading
-        className="mt-[100px] max-lg:mt-[80px] max-sm:mt-[60px]"
-        heading="Testimonials"
-        subheading="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
-        subheadingClassName="max-w-[473px]"
-      />
-      <Testimonials className="mt-[80px] max-lg:mt-[60px] max-sm:mt-[40px]" />
+
+
       <HeadingSubheading
         className="mt-[140px] max-lg:mt-[100px] max-sm:mt-[60px]"
         heading="Contact Us"
